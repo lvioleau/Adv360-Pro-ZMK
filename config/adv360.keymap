@@ -130,28 +130,18 @@
             bindings = <
 &kp EQUAL  &kp N1          &kp N2           &kp N3    &kp N4             &kp N5  &tog 1                                                           &kp DEL            &kp N6  &kp N7              &kp N8     &kp N9    &kp N0    &kp MINUS
 &kp TAB    &kp Q           &kp W            &kp F     &kp P              &kp B   &kp GRAVE                                                        &none              &kp J   &kp L               &kp U      &kp Y     &kp SEMI  &kp BSLH
-&kp ESC    &kp A           &kp R            &ltl 1 S  &hml LEFT_SHIFT T  &kp G   &kp SINGLE_QUOTE  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp DOUBLE_QUOTES  &kp M   &hmr RIGHT_SHIFT N  &ltr 2 E   &kp I     &kp O     &kp SQT
+&kp ESC    &kp A           &kp R            &ltl 1 S  &hml LEFT_SHIFT T  &kp G   &kp SINGLE_QUOTE  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &kp DOUBLE_QUOTES  &kp M   &hmr RIGHT_SHIFT N  &ltr 1 E   &kp I     &kp O     &kp SQT
 &kp LSHFT  &kp Z           &kp X            &kp C     &kp D              &kp V                                &kp HOME      &kp PG_UP                                &kp K   &kp H               &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 0      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT  &kp RIGHT                  &kp BSPC          &kp TAB    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                  &kp UP              &kp DOWN   &kp LBKT  &kp RBKT  &mo 3
+&mo 0      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT  &kp RIGHT                  &kp BSPC          &kp TAB    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                  &kp UP              &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
-        rsyms {
-            bindings = <
-&kp EQUAL   &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 3      &kp N6  &kp KP_NUM            &kp KP_EQUAL           &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB     &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &kp KP_MINUS     &kp BSLH
-&kp ESC     &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &kp KP_PLUS      &kp SQT
-&kp LSHFT   &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans           &kp RSHFT
-&kp DOLLAR  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP                &kp DOWN               &trans         &trans           &mo 0
-            >;
-        };
-
-        lsyms {
+        syms {
             bindings = <
 &trans  &trans           &trans         &trans     &trans      &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans         &trans     &trans      &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EXCLAMATION  &kp AMPERSAND  &kp POUND  &kp DOLLAR  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &trans         &trans     &trans      &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans         &trans     &trans      &trans  &trans                                      &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans  &trans
+&trans  &kp EXCLAMATION  &kp AMPERSAND  &kp POUND  &kp DOLLAR  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
+&trans  &trans           &trans         &trans     &trans      &trans                  &trans      &trans                  &trans  &kp LEFT_BRACKET &kp RIGHT_BRACKET  &trans  &trans  &trans
 &trans  &trans           &trans         &trans     &trans              &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
