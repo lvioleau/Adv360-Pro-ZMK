@@ -128,11 +128,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1          &kp N2           &kp N3                &kp N4                 &kp N5           &trans                                                                              &trans             &kp N6  &kp N7            &kp N8                &kp N9    &kp N0         &kp MINUS
-&kp TILDE  &kp Q           &kp W            &kp F                 &kp P                  &kp B            &kp CARET                                                                           &kp DOLLAR         &kp J   &kp L             &kp U                 &kp Y     &kp BACKSLASH  &kp PIPE
-&kp COLON  &kp A           &kp R            &hml LEFT_CONTROL S   &ltl 1 T               &kp G            &kp SINGLE_QUOTE    &kp DELETE     &none           &trans  &trans                   &kp DOUBLE_QUOTES  &kp M   &ltr 1 N          &hmr RIGHT_CONTROL E  &kp I     &kp O          &kp SEMI
-&kp GRAVE  &kp Z           &kp X            &kp C                 &hml LEFT_ALT D        &hml LEFT_GUI V                                     &none           &none                                               &kp K   &hmr RIGHT_ALT H  &kp COMMA             &kp DOT   &kp FSLH       &kp QUESTION
-&trans     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                   &mt LEFT_SHIFT TAB  &kp BACKSPACE  &kp ESCAPE      &none   &mt RIGHT_CONTROL ENTER  &lt 2 SPACE                &kp STAR          &kp POUND             &kp LBKT  &kp RBKT       &mo 3
+&kp EQUAL  &kp N1          &kp N2           &kp N3                &kp N4                 &kp N5           &trans                                                                              &trans             &kp N6  &kp N7              &kp N8                &kp N9    &kp N0         &kp MINUS
+&kp TILDE  &kp Q           &kp W            &kp F                 &kp P                  &kp B            &kp CARET                                                                           &kp DOLLAR         &kp J   &kp L               &kp U                 &kp Y     &kp BACKSLASH  &kp PIPE
+&kp COLON  &kp A           &ltl 1 R         &hml LEFT_CONTROL S   &hml LEFT_SHIFT T      &kp G            &kp SINGLE_QUOTE    &kp DELETE     &none           &trans  &trans                   &kp DOUBLE_QUOTES  &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &ltr 1 I  &kp O          &kp SEMI
+&kp GRAVE  &kp Z           &kp X            &kp C                 &hml LEFT_ALT D        &hml LEFT_GUI V                                     &none           &none                                               &kp K   &hmr RIGHT_ALT H    &kp COMMA             &kp DOT   &kp FSLH       &kp QUESTION
+&trans     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                   &mt LEFT_SHIFT TAB  &kp BACKSPACE  &kp ESCAPE      &none   &mt RIGHT_CONTROL ENTER  &lt 2 SPACE                &kp STAR            &kp POUND             &kp LBKT  &kp RBKT       &mo 3
             >;
         };
 
