@@ -92,11 +92,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&none       &kp N1  &kp N2            &kp N3                &kp N4                 &kp N5           &none                                                    &mo 3        &kp N6  &kp N7              &kp N8                &kp N9            &kp N0         &none
-&none       &kp Q   &kp W             &kp F                 &kp P                  &kp B            &none                                                    &none        &kp J   &kp L               &kp U                 &kp Y             &kp BACKSLASH  &none
-&kp ESCAPE  &kp A   &hml LS(LCTRL) R  &hml LEFT_CONTROL S   &hml LEFT_SHIFT T      &kp G            &kp CARET  &none    &none      &kp HOME       &kp GRAVE  &kp DOLLAR   &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr LS(LCTRL) I  &kp O          &kp SEMI
-&none       &kp Z   &kp X             &kp C                 &kp D                  &hml LEFT_GUI V                      &none      &kp PAGE_UP                            &kp K   &hmr RIGHT_ALT H    &kp COMMA             &kp DOT           &kp FSLH       &none
-&none       &none   &none             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                   &kp BSPC   &kp TAB  &none      &kp PAGE_DOWN  &kp ENTER  &lt 1 SPACE          &kp LEFT_BRACKET    &kp RIGHT_BRACKET     &none             &none          &none
+&none       &kp N1  &kp N2            &kp N3                &kp N4                 &kp N5           &none                                                          &mo 3        &kp N6  &kp N7              &kp N8                &kp N9            &kp N0         &none
+&none       &kp Q   &kp W             &kp F                 &kp P                  &kp B            &none                                                          &none        &kp J   &kp L               &kp U                 &kp Y             &kp BACKSLASH  &none
+&kp ESCAPE  &kp A   &hml LS(LCTRL) R  &hml LEFT_CONTROL S   &hml LEFT_SHIFT T      &kp G            &kp CARET        &none    &none      &kp HOME       &kp GRAVE  &kp DOLLAR   &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr LS(LCTRL) I  &kp O          &kp SEMI
+&none       &kp Z   &kp X             &kp C                 &kp D                  &hml LEFT_GUI V                            &none      &kp PAGE_UP                            &kp K   &hmr RIGHT_ALT H    &kp COMMA             &kp DOT           &kp FSLH       &none
+&none       &none   &none             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                   &lt 2 BACKSPACE  &kp TAB  &none      &kp PAGE_DOWN  &kp ENTER  &lt 1 SPACE          &kp LEFT_BRACKET    &kp RIGHT_BRACKET     &none             &none          &none
             >;
         };
 
@@ -114,11 +114,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7         &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &kp BACKSLASH  &kp NUMBER_7  &kp N8        &kp N9        &kp ASTERISK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp EQUAL      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT       &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &kp N0                 &trans        &trans        &trans        &trans        &trans
             >;
         };
 
