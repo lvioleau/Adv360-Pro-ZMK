@@ -85,22 +85,22 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&none    &kp N1  &kp N2            &kp N3                &kp N4                 &kp N5           &none                                                                           &mo 4        &kp N6  &kp N7              &kp N8                &kp N9            &kp N0         &none
-&none    &kp Q   &kp W             &kp F                 &kp P                  &kp B            &none                                                                           &none        &kp J   &kp L               &kp U                 &kp Y             &kp BACKSLASH  &none
-&kp TAB  &kp A   &hml LS(LCTRL) R  &hml LEFT_CONTROL S   &hml LEFT_SHIFT T      &kp G            &none            &kp DOUBLE_QUOTES  &kp DEL      &kp SINGLE_QUOTE  &kp GRAVE    &none        &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr LS(LCTRL) I  &kp O          &kp SEMI
-&none    &kp Z   &kp X             &kp C                 &hml LALT D            &hml LEFT_GUI V                                      &none        &kp PAGE_UP                                 &kp K   &hmr RIGHT_ALT H    &kp COMMA             &kp DOT           &kp FSLH       &none
-&none    &none   &none             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                   &lt 3 BACKSPACE  &kp ESC            &kp TAB      &kp PAGE_DOWN     &lt 2 ENTER  &lt 1 SPACE          &kp LEFT_BRACKET    &kp RIGHT_BRACKET     &kp STAR          &kp POUND      &none
+&none    &kp N1  &kp N2            &kp N3               &kp N4             &kp N5           &none                                                                           &mo 4        &kp N6  &kp N7              &kp N8                &kp N9            &kp N0         &none
+&none    &kp Q   &kp W             &kp F                &kp P              &kp B            &none                                                                           &none        &kp J   &kp L               &kp U                 &kp Y             &kp BACKSLASH  &none
+&kp TAB  &kp A   &hml LS(LCTRL) R  &hml LEFT_CONTROL S  &hml LEFT_SHIFT T  &kp G            &none            &kp DOUBLE_QUOTES  &kp DEL      &kp SINGLE_QUOTE  &kp GRAVE    &none        &kp M   &hmr RIGHT_SHIFT N  &hmr RIGHT_CONTROL E  &hmr LS(LCTRL) I  &kp O          &kp SEMI
+&none    &kp Z   &kp X             &kp C                &hml LALT D        &hml LEFT_GUI V                                      &none        &kp PAGE_UP                                 &kp K   &hmr RIGHT_ALT H    &kp COMMA             &kp DOT           &kp FSLH       &none
+&none    &none   &none             &none                &none                               &lt 3 BACKSPACE  &kp ESC            &kp TAB      &kp PAGE_DOWN     &lt 2 ENTER  &lt 1 SPACE          &kp LEFT_BRACKET    &kp RIGHT_BRACKET     &kp STAR          &none          &none
             >;
         };
 
         symbols {
             display-name = "Kp";
             bindings = <
-&none  &none            &none        &none      &none           &none             &trans                                     &none  &none         &none          &none         &none      &none  &none
-&none  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR      &kp PERCENT       &none                                      &none  &none         &kp PAGE_DOWN  &kp PAGE_UP   &none      &none  &none
-&none  &kp AMPERSAND    &kp STAR     &kp EQUAL  &kp UNDERSCORE  &kp SINGLE_QUOTE  &none      &none  &none      &none  &none  &none  &kp LEFT      &kp DOWN       &kp UP_ARROW  &kp RIGHT  &none  &none
-&none  &kp BACKSLASH    &kp PIPE     &kp PLUS   &kp MINUS       &kp TILDE                           &none      &none                &kp NUMBER_0  &kp CARET      &kp DOLLAR    &none      &none  &none
-&none  &none            &none        &none      &none                             &kp COLON  &none  &none      &none  &none  &none                &none          &none         &none      &none  &none
+&none  &none            &none        &none      &none           &none             &trans                                     &none  &none      &none          &none         &none       &none  &none
+&none  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR      &kp PERCENT       &none                                      &none  &none      &kp PAGE_DOWN  &kp PAGE_UP   &none       &none  &none
+&none  &kp AMPERSAND    &kp STAR     &kp EQUAL  &kp UNDERSCORE  &kp SINGLE_QUOTE  &none      &none  &none      &none  &none  &none  &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT   &none  &none
+&none  &kp BACKSLASH    &kp PIPE     &kp PLUS   &kp MINUS       &kp TILDE                           &none      &none                &kp CARET  &kp SLASH      &kp QUESTION  &kp DOLLAR  &none  &none
+&none  &none            &none        &none      &none                             &kp COLON  &none  &none      &none  &none  &none             &none          &none         &none       &none  &none
             >;
         };
 
